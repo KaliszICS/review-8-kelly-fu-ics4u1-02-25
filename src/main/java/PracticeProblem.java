@@ -4,6 +4,7 @@ public class PracticeProblem {
 
 }
 	public static String pluralize(String word){
+		word = word.toLowerCase();
 		if (word.endsWith("y")&& !word.endsWith("ey")){
 		return "ies";
 		}
